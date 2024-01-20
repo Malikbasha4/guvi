@@ -10,10 +10,10 @@ body {
 
 .logo {
   position: absolute;
-  top: 5px;
-  left: 35%;
+  top: 10px;
+  left: 50%;
   transform: translateX(-50%);
-  max-width: 30px;
+  max-width: 80px;
   height: auto;
   border-radius: 50%;
 }
@@ -22,7 +22,7 @@ body {
   max-width: 400px;
   margin: 120px auto 50px auto;
   background: linear-gradient(45deg, #FF5E7E, #D400FF);
-  padding: 20px;
+  padding: 30px;
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   animation: fadeIn 1s ease-in-out;
@@ -40,6 +40,7 @@ body {
 
 h2 {
   color: #fff;
+  margin-bottom: 20px;
 }
 
 .form-group {
@@ -48,7 +49,7 @@ h2 {
 
 label {
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
   margin-bottom: 8px;
 }
@@ -91,6 +92,7 @@ button:hover {
   text-align: center;
   margin-top: 20px;
   color: #fff;
+  font-size: 14px;
 }
 
 .link a {
