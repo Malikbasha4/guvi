@@ -17,16 +17,14 @@ const Login = ({ onLogin }) => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevents the default form submission behavior
-
-    // Perform login logic (replace this with your actual authentication logic)
-    // For demonstration purposes, we'll consider a successful login
+    e.preventDefault();
     onLogin();
-    history.push('/profile'); // Redirect to the profile page
+    history.push('/profile');
   };
 
   return (
     <div className="container">
+      <img src="./download1.png" alt="Logo" className="logo" />
       <h2>Login</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
